@@ -1,4 +1,4 @@
-# Belkan-World-IA
+# Belkan World
 Practicas UGR IA - Searching algorythims that try to get the higgest score on different maps
 
 ![](Belkan.gif)
