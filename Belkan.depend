@@ -1,0 +1,1044 @@
+# depslib dependency file v1.0
+1584357622 source:d:\clases\practica2_windows\bin_src\juego.cc
+	"motorlib.hpp"
+
+1584358332 d:\clases\practica2_windows\include\motorlib.hpp
+	"motorlib/monitor.hpp"
+	<glui/glui.h>
+
+1585221890 d:\clases\practica2_windows\include\motorlib\monitor.hpp
+	"motorlib/entidad.hpp"
+	"motorlib/mapa.hpp"
+	"motorlib/util.h"
+	<glui/glui.h>
+
+1585220380 d:\clases\practica2_windows\include\motorlib\entidad.hpp
+	"obj3dlib.hpp"
+	"comportamientolib.hpp"
+	"motorlib/util.h"
+
+1584358332 d:\clases\practica2_windows\include\obj3dlib.hpp
+	"obj3dlib/file_ply_stl.h"
+	"obj3dlib/jpeg_reader/jpg_imagen.hpp"
+	"obj3dlib/objeto3d.h"
+	"obj3dlib/objrevolucion3d.h"
+	"obj3dlib/cubo3d.h"
+	"obj3dlib/cono3d.h"
+	"obj3dlib/cono3dwire.h"
+	"obj3dlib/esfera3d.h"
+	"obj3dlib/toro3d.h"
+	"obj3dlib/tetraedro3d.h"
+	"obj3dlib/octaedro3d.h"
+	"obj3dlib/dodecaedro3d.h"
+	"obj3dlib/icosaedro3d.h"
+	"obj3dlib/luz.hpp"
+
+1584357624 d:\clases\practica2_windows\include\obj3dlib\file_ply_stl.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<string>
+	<vector>
+	<assert.h>
+
+1584357624 d:\clases\practica2_windows\include\obj3dlib\jpeg_reader\jpg_imagen.hpp
+	<string>
+
+1584357624 d:\clases\practica2_windows\include\obj3dlib\objeto3d.h
+	"obj3dlib/vertex.h"
+	<vector>
+	<GL/gl.h>
+	<string.h>
+
+1585245213 d:\clases\practica2_windows\include\obj3dlib\vertex.h
+	<stdio.h>
+	<assert.h>
+	<math.h>
+	<iostream>
+
+1585245213 d:\clases\practica2_windows\include\gl\gl.h
+	<GL/glext.h>
+
+1584357992 d:\clases\practica2_windows\include\gl\glext.h
+	<windows.h>
+
+1585245213 d:\clases\practica2_windows\include\obj3dlib\objrevolucion3d.h
+	"obj3dlib/objeto3d.h"
+
+1584357622 d:\clases\practica2_windows\include\obj3dlib\cubo3d.h
+	"obj3dlib/objeto3d.h"
+
+1584357622 d:\clases\practica2_windows\include\obj3dlib\cono3d.h
+	"obj3dlib/objeto3d.h"
+
+1585245213 d:\clases\practica2_windows\include\obj3dlib\cono3dwire.h
+	"obj3dlib/objeto3d.h"
+
+1584357622 d:\clases\practica2_windows\include\obj3dlib\esfera3d.h
+	"obj3dlib/objeto3d.h"
+
+1584357624 d:\clases\practica2_windows\include\obj3dlib\toro3d.h
+	"obj3dlib/objeto3d.h"
+
+1584357624 d:\clases\practica2_windows\include\obj3dlib\tetraedro3d.h
+	"obj3dlib/objeto3d.h"
+
+1584357624 d:\clases\practica2_windows\include\obj3dlib\octaedro3d.h
+	"obj3dlib/objeto3d.h"
+
+1584357622 d:\clases\practica2_windows\include\obj3dlib\dodecaedro3d.h
+	"obj3dlib/objeto3d.h"
+
+1584357624 d:\clases\practica2_windows\include\obj3dlib\icosaedro3d.h
+	"obj3dlib/objeto3d.h"
+
+1584357624 d:\clases\practica2_windows\include\obj3dlib\luz.hpp
+	"obj3dlib/objeto3d.h"
+	<GL/gl.h>
+
+1584358332 d:\clases\practica2_windows\include\comportamientolib.hpp
+	"comportamientos/comportamiento.hpp"
+	"../Comportamientos_Jugador/jugador.hpp"
+	"../Comportamientos_Jugador/aldeano.hpp"
+
+1584357622 d:\clases\practica2_windows\include\comportamientos\comportamiento.hpp
+	<vector>
+
+1585301688 d:\clases\practica2_windows\comportamientos_jugador\jugador.hpp
+	"comportamientos/comportamiento.hpp"
+	<list>
+
+1584357622 d:\clases\practica2_windows\comportamientos_jugador\aldeano.hpp
+	<chrono>
+	<time.h>
+	<thread>
+	"comportamientos/comportamiento.hpp"
+
+1584357622 d:\clases\practica2_windows\include\motorlib\util.h
+	<cstdlib>
+
+1584357622 d:\clases\practica2_windows\include\motorlib\mapa.hpp
+	<GL/glut.h>
+	"motorlib/entidad.hpp"
+	"modelos_belkan.hpp"
+
+1584357992 d:\clases\practica2_windows\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1584357992 d:\clases\practica2_windows\include\gl\glu.h
+	<GL/gl.h>
+
+1584358332 d:\clases\practica2_windows\include\modelos_belkan.hpp
+	"modelos/aldeano/aldeano.hpp"
+	"modelos/jugador/jugador3d.hpp"
+	"modelos/arbol/arbol.hpp"
+	"modelos/item/item.hpp"
+
+1585245213 d:\clases\practica2_windows\include\modelos\aldeano\aldeano.hpp
+	"modelos/aldeano/torso.hpp"
+	"obj3dlib.hpp"
+	<string.h>
+
+1584357622 d:\clases\practica2_windows\include\modelos\aldeano\torso.hpp
+	"obj3dlib.hpp"
+	"modelos/aldeano/cabeza.hpp"
+	"modelos/aldeano/brazo.hpp"
+	"modelos/aldeano/cintura.hpp"
+	<string.h>
+
+1584357622 d:\clases\practica2_windows\include\modelos\aldeano\cabeza.hpp
+	"obj3dlib.hpp"
+	"modelos/retrato.hpp"
+	<string.h>
+
+1584357622 d:\clases\practica2_windows\include\modelos\retrato.hpp
+	"obj3dlib.hpp"
+	<string.h>
+
+1584357622 d:\clases\practica2_windows\include\modelos\aldeano\brazo.hpp
+	"obj3dlib.hpp"
+	<string.h>
+
+1584357622 d:\clases\practica2_windows\include\modelos\aldeano\cintura.hpp
+	"obj3dlib.hpp"
+	"modelos/aldeano/pierna.hpp"
+	<string.h>
+
+1584357622 d:\clases\practica2_windows\include\modelos\aldeano\pierna.hpp
+	"obj3dlib.hpp"
+	<string.h>
+
+1584357622 d:\clases\practica2_windows\include\modelos\jugador\jugador3d.hpp
+	"modelos/jugador/quesito.hpp"
+	"modelos/retrato.hpp"
+	"obj3dlib.hpp"
+	<string.h>
+
+1584357622 d:\clases\practica2_windows\include\modelos\jugador\quesito.hpp
+	"obj3dlib.hpp"
+	<string.h>
+
+1584357622 d:\clases\practica2_windows\include\modelos\arbol\arbol.hpp
+	"obj3dlib.hpp"
+
+1584357622 d:\clases\practica2_windows\include\modelos\item\item.hpp
+	"obj3dlib.hpp"
+
+1585245213 d:\clases\practica2_windows\include\glui\glui.h
+	<cstdlib>
+	<GL/glut.h>
+	<cstdio>
+	<cstring>
+	<string>
+	<vector>
+
+1584357622 source:d:\clases\practica2_windows\comportamientos_jugador\aldeano.cpp
+	"../Comportamientos_Jugador/aldeano.hpp"
+	"motorlib/util.h"
+
+1584357624 source:d:\clases\practica2_windows\src\comportamientos\comportamiento.cpp
+	"comportamientos/comportamiento.hpp"
+
+1584357624 source:d:\clases\practica2_windows\src\glui\algebra3.cpp
+	"glui/algebra3.h"
+	"glui/glui_internal.h"
+	<cmath>
+
+1584357622 d:\clases\practica2_windows\include\glui\algebra3.h
+	<cmath>
+	<cstdio>
+	<cstdlib>
+
+1584357622 d:\clases\practica2_windows\include\glui\glui_internal.h
+	<cstdio>
+	<cmath>
+
+1584357624 source:d:\clases\practica2_windows\src\glui\arcball.cpp
+	"glui/arcball.h"
+	<cstdio>
+
+1584357622 d:\clases\practica2_windows\include\glui\arcball.h
+	"glui_internal.h"
+	"algebra3.h"
+	"quaternion.h"
+
+1584357622 d:\clases\practica2_windows\include\glui\quaternion.h
+	"algebra3.h"
+	<cstdio>
+
+1584357624 source:d:\clases\practica2_windows\src\glui\glui.cpp
+	"glui/glui_internal_control.h"
+
+1584357622 d:\clases\practica2_windows\include\glui\glui_internal_control.h
+	"glui/glui.h"
+	"glui/glui_internal.h"
+
+1584357624 source:d:\clases\practica2_windows\src\glui\glui_add_controls.cpp
+	"glui/glui.h"
+	"glui/glui_internal.h"
+
+1584357624 source:d:\clases\practica2_windows\src\glui\glui_bitmap_img_data.cpp
+
+1584357624 source:d:\clases\practica2_windows\src\glui\glui_bitmaps.cpp
+	"glui/glui.h"
+	"glui/glui_internal.h"
+	<cassert>
+
+1584357624 source:d:\clases\practica2_windows\src\glui\glui_button.cpp
+	"glui/glui_internal_control.h"
+
+1584357624 source:d:\clases\practica2_windows\src\glui\glui_checkbox.cpp
+	"glui/glui_internal_control.h"
+
+1585245213 source:d:\clases\practica2_windows\src\glui\glui_column.cpp
+	"glui/glui_internal_control.h"
+
+1584357624 source:d:\clases\practica2_windows\src\glui\glui_commandline.cpp
+	"glui/glui.h"
+	"glui/glui_internal.h"
+
+1584357624 source:d:\clases\practica2_windows\src\glui\glui_control.cpp
+	"glui/glui_internal_control.h"
+
+1584357624 source:d:\clases\practica2_windows\src\glui\glui_edittext.cpp
+	"glui/glui_internal_control.h"
+	<cassert>
+
+1584357624 source:d:\clases\practica2_windows\src\glui\glui_filebrowser.cpp
+	"glui/glui.h"
+	"glui/glui_internal.h"
+	<sys/types.h>
+	<windows.h>
+	<dirent.h>
+	<unistd.h>
+	<sys/stat.h>
+
+1584357624 source:d:\clases\practica2_windows\src\glui\glui_list.cpp
+	"glui/glui_internal_control.h"
+	<cmath>
+	<sys/timeb.h>
+
+1584357624 source:d:\clases\practica2_windows\src\glui\glui_listbox.cpp
+	"glui/glui_internal_control.h"
+
+1584357624 source:d:\clases\practica2_windows\src\glui\glui_mouse_iaction.cpp
+	"glui/glui_internal_control.h"
+
+1584357624 source:d:\clases\practica2_windows\src\glui\glui_node.cpp
+	"glui/glui.h"
+	"glui/glui_internal.h"
+
+1584357624 source:d:\clases\practica2_windows\src\glui\glui_panel.cpp
+	"glui/glui_internal_control.h"
+
+1584357624 source:d:\clases\practica2_windows\src\glui\glui_radio.cpp
+	"glui/glui_internal_control.h"
+	<cassert>
+
+1584357624 source:d:\clases\practica2_windows\src\glui\glui_rollout.cpp
+	"glui/glui_internal_control.h"
+
+1584357624 source:d:\clases\practica2_windows\src\glui\glui_rotation.cpp
+	"glui/glui.h"
+	"glui/arcball.h"
+	"glui/algebra3.h"
+
+1584357624 source:d:\clases\practica2_windows\src\glui\glui_scrollbar.cpp
+	"glui/glui_internal_control.h"
+	<cmath>
+	<cassert>
+
+1585245213 source:d:\clases\practica2_windows\src\glui\glui_separator.cpp
+	"glui/glui_internal_control.h"
+
+1584357624 source:d:\clases\practica2_windows\src\glui\glui_spinner.cpp
+	"glui/glui_internal_control.h"
+	<cmath>
+	<cassert>
+
+1584357624 source:d:\clases\practica2_windows\src\glui\glui_statictext.cpp
+	"glui/glui_internal_control.h"
+
+1584357624 source:d:\clases\practica2_windows\src\glui\glui_string.cpp
+	"glui/glui.h"
+	<stdarg.h>
+
+1584357624 source:d:\clases\practica2_windows\src\glui\glui_textbox.cpp
+	"glui/glui_internal_control.h"
+	<cmath>
+
+1584357624 source:d:\clases\practica2_windows\src\glui\glui_translation.cpp
+	"glui/glui.h"
+	"glui/glui_internal.h"
+	"glui/algebra3.h"
+
+1584357624 source:d:\clases\practica2_windows\src\glui\glui_tree.cpp
+	"glui/glui_internal_control.h"
+
+1584357624 source:d:\clases\practica2_windows\src\glui\glui_treepanel.cpp
+	"glui/glui.h"
+
+1584357624 source:d:\clases\practica2_windows\src\glui\glui_window.cpp
+	"glui/glui.h"
+	"glui/glui_internal.h"
+
+1584357624 source:d:\clases\practica2_windows\src\glui\quaternion.cpp
+	"glui/quaternion.h"
+	<cmath>
+	"glui/glui_internal.h"
+
+1584357624 source:d:\clases\practica2_windows\src\glui\viewmodel.cpp
+	"glui/viewmodel.h"
+	"glui/glui.h"
+	<cstdio>
+	<cstdlib>
+
+1584357622 d:\clases\practica2_windows\include\glui\viewmodel.h
+	"algebra3.h"
+
+1584357624 source:d:\clases\practica2_windows\src\modelos\aldeano\aldeano.cpp
+	"modelos/aldeano/aldeano.hpp"
+
+1584357624 source:d:\clases\practica2_windows\src\modelos\aldeano\brazo.cpp
+	"modelos/aldeano/brazo.hpp"
+
+1584357626 source:d:\clases\practica2_windows\src\modelos\aldeano\cabeza.cpp
+	"modelos/aldeano/cabeza.hpp"
+
+1584357626 source:d:\clases\practica2_windows\src\modelos\aldeano\cintura.cpp
+	"modelos/aldeano/cintura.hpp"
+
+1584357626 source:d:\clases\practica2_windows\src\modelos\aldeano\pierna.cpp
+	"modelos/aldeano/pierna.hpp"
+
+1584357626 source:d:\clases\practica2_windows\src\modelos\aldeano\torso.cpp
+	"modelos/aldeano/torso.hpp"
+
+1584357626 source:d:\clases\practica2_windows\src\modelos\arbol\arbol.cpp
+	"modelos/arbol/arbol.hpp"
+	<GL/glut.h>
+
+1585245213 source:d:\clases\practica2_windows\src\modelos\item\item.cpp
+	"modelos/item/item.hpp"
+
+1584357626 source:d:\clases\practica2_windows\src\modelos\jugador\jugador3d.cpp
+	"modelos/jugador/jugador3d.hpp"
+
+1584357626 source:d:\clases\practica2_windows\src\modelos\jugador\quesito.cpp
+	"modelos/jugador/quesito.hpp"
+
+1584357624 source:d:\clases\practica2_windows\src\modelos\retrato.cpp
+	"modelos/retrato.hpp"
+
+1585220214 source:d:\clases\practica2_windows\src\motorlib\entidad.cpp
+	"motorlib/entidad.hpp"
+
+1584359034 source:d:\clases\practica2_windows\src\motorlib\mapa.cpp
+	"motorlib/mapa.hpp"
+
+1584357626 source:d:\clases\practica2_windows\src\motorlib\monitor.cpp
+	"motorlib/monitor.hpp"
+	<fstream>
+
+1585245214 source:d:\clases\practica2_windows\src\motorlib\motor_grafico.cpp
+	"motorlib.hpp"
+	<glui/glui.h>
+	<dirent.h>
+
+1585299695 source:d:\clases\practica2_windows\src\motorlib\motor_juego.cpp
+	"motorlib.hpp"
+	<unistd.h>
+
+1584357626 source:d:\clases\practica2_windows\src\motorlib\util.cpp
+	"motorlib/util.h"
+
+1584357626 source:d:\clases\practica2_windows\src\obj3dlib\cono3d.cc
+	"obj3dlib/cono3d.h"
+	<GL/glut.h>
+
+1584357626 source:d:\clases\practica2_windows\src\obj3dlib\cono3dwire.cc
+	"obj3dlib/cono3dwire.h"
+	<GL/glut.h>
+
+1585245214 source:d:\clases\practica2_windows\src\obj3dlib\cubo3d.cc
+	"obj3dlib/cubo3d.h"
+	<GL/glut.h>
+
+1584357626 source:d:\clases\practica2_windows\src\obj3dlib\dodecaedro3d.cc
+	"obj3dlib/dodecaedro3d.h"
+	<GL/glut.h>
+
+1584357626 source:d:\clases\practica2_windows\src\obj3dlib\esfera3d.cc
+	"obj3dlib/esfera3d.h"
+	<GL/glut.h>
+
+1584357626 source:d:\clases\practica2_windows\src\obj3dlib\file_ply_stl.cc
+	"obj3dlib/file_ply_stl.h"
+
+1584357626 source:d:\clases\practica2_windows\src\obj3dlib\icosaedro3d.cc
+	"obj3dlib/icosaedro3d.h"
+	<GL/glut.h>
+
+1584357626 source:d:\clases\practica2_windows\src\obj3dlib\jpeg_reader\jpg_imagen.cpp
+	<stdlib.h>
+	<string>
+	<iostream>
+	"obj3dlib/jpeg_reader/jpg_imagen.hpp"
+	"obj3dlib/jpeg_reader/jpg_readwrite.hpp"
+
+1584357624 d:\clases\practica2_windows\include\obj3dlib\jpeg_reader\jpg_readwrite.hpp
+
+1584359546 source:d:\clases\practica2_windows\src\obj3dlib\jpeg_reader\jpg_memsrc.cpp
+	"obj3dlib/jpeg_reader/jpg_jinclude.h"
+	<jpeglib.h>
+	<jerror.h>
+
+1584357624 d:\clases\practica2_windows\include\obj3dlib\jpeg_reader\jpg_jinclude.h
+	"jconfig.h"
+	<stddef.h>
+	<stdlib.h>
+	<sys/types.h>
+	<stdio.h>
+	<strings.h>
+	<string.h>
+
+1585245213 d:\clases\practica2_windows\include\jconfig.h
+
+1584358328 d:\clases\practica2_windows\include\jpeglib.h
+	"jconfig.h"
+	"jmorecfg.h"
+	"jpegint.h"
+	"jerror.h"
+
+1584358328 d:\clases\practica2_windows\include\jmorecfg.h
+
+1584358328 d:\clases\practica2_windows\include\jerror.h
+
+1584357626 source:d:\clases\practica2_windows\src\obj3dlib\jpeg_reader\jpg_readwrite.cpp
+	"obj3dlib/jpeg_reader/jpg_readwrite.hpp"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<jpeglib.h>
+	<iostream>
+	<fstream>
+	"obj3dlib/jpeg_reader/jpg_memsrc.hpp"
+	<setjmp.h>
+
+1585245213 d:\clases\practica2_windows\include\obj3dlib\jpeg_reader\jpg_memsrc.hpp
+
+1584357626 source:d:\clases\practica2_windows\src\obj3dlib\luz.cpp
+	"obj3dlib/luz.hpp"
+	<cmath>
+
+1584357626 source:d:\clases\practica2_windows\src\obj3dlib\objeto3d.cc
+	"obj3dlib/objeto3d.h"
+	"obj3dlib/file_ply_stl.h"
+	<iostream>
+
+1585245214 source:d:\clases\practica2_windows\src\obj3dlib\objrevolucion3d.cc
+	"obj3dlib/objrevolucion3d.h"
+	"obj3dlib/file_ply_stl.h"
+	<cmath>
+	<GL/glut.h>
+
+1584357626 source:d:\clases\practica2_windows\src\obj3dlib\octaedro3d.cc
+	"obj3dlib/octaedro3d.h"
+	<GL/glut.h>
+
+1584357626 source:d:\clases\practica2_windows\src\obj3dlib\tetraedro3d.cc
+	"obj3dlib/tetraedro3d.h"
+	<GL/glut.h>
+
+1584357626 source:d:\clases\practica2_windows\src\obj3dlib\toro3d.cc
+	"obj3dlib/toro3d.h"
+	<GL/glut.h>
+
+1584364822 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\bin_src\juego.cc
+	"motorlib.hpp"
+
+1584365532 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\motorlib.hpp
+	"motorlib/monitor.hpp"
+	<glui/glui.h>
+
+1585229090 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\motorlib\monitor.hpp
+	"motorlib/entidad.hpp"
+	"motorlib/mapa.hpp"
+	"motorlib/util.h"
+	<glui/glui.h>
+
+1589375246 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\motorlib\entidad.hpp
+	"obj3dlib.hpp"
+	"comportamientolib.hpp"
+	"motorlib/util.h"
+
+1584365532 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\obj3dlib.hpp
+	"obj3dlib/file_ply_stl.h"
+	"obj3dlib/jpeg_reader/jpg_imagen.hpp"
+	"obj3dlib/objeto3d.h"
+	"obj3dlib/objrevolucion3d.h"
+	"obj3dlib/cubo3d.h"
+	"obj3dlib/cono3d.h"
+	"obj3dlib/cono3dwire.h"
+	"obj3dlib/esfera3d.h"
+	"obj3dlib/toro3d.h"
+	"obj3dlib/tetraedro3d.h"
+	"obj3dlib/octaedro3d.h"
+	"obj3dlib/dodecaedro3d.h"
+	"obj3dlib/icosaedro3d.h"
+	"obj3dlib/luz.hpp"
+
+1584364824 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\obj3dlib\file_ply_stl.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<string>
+	<vector>
+	<assert.h>
+
+1584364824 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\obj3dlib\jpeg_reader\jpg_imagen.hpp
+	<string>
+
+1584364824 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\obj3dlib\objeto3d.h
+	"obj3dlib/vertex.h"
+	<vector>
+	<GL/gl.h>
+	<string.h>
+
+1585252412 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\obj3dlib\vertex.h
+	<stdio.h>
+	<assert.h>
+	<math.h>
+	<iostream>
+
+1585252412 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\gl\gl.h
+	<GL/glext.h>
+
+1584365192 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\gl\glext.h
+	<windows.h>
+
+1585252412 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\obj3dlib\objrevolucion3d.h
+	"obj3dlib/objeto3d.h"
+
+1584364822 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\obj3dlib\cubo3d.h
+	"obj3dlib/objeto3d.h"
+
+1584364822 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\obj3dlib\cono3d.h
+	"obj3dlib/objeto3d.h"
+
+1585252412 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\obj3dlib\cono3dwire.h
+	"obj3dlib/objeto3d.h"
+
+1584364822 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\obj3dlib\esfera3d.h
+	"obj3dlib/objeto3d.h"
+
+1584364824 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\obj3dlib\toro3d.h
+	"obj3dlib/objeto3d.h"
+
+1584364824 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\obj3dlib\tetraedro3d.h
+	"obj3dlib/objeto3d.h"
+
+1584364824 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\obj3dlib\octaedro3d.h
+	"obj3dlib/objeto3d.h"
+
+1584364822 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\obj3dlib\dodecaedro3d.h
+	"obj3dlib/objeto3d.h"
+
+1584364824 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\obj3dlib\icosaedro3d.h
+	"obj3dlib/objeto3d.h"
+
+1584364824 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\obj3dlib\luz.hpp
+	"obj3dlib/objeto3d.h"
+	<GL/gl.h>
+
+1584365532 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\comportamientolib.hpp
+	"comportamientos/comportamiento.hpp"
+	"../Comportamientos_Jugador/jugador.hpp"
+	"../Comportamientos_Jugador/aldeano.hpp"
+
+1584364822 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\comportamientos\comportamiento.hpp
+	<vector>
+
+1590339264 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\comportamientos_jugador\jugador.hpp
+	"comportamientos/comportamiento.hpp"
+	<list>
+
+1584364822 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\comportamientos_jugador\aldeano.hpp
+	<chrono>
+	<time.h>
+	<thread>
+	"comportamientos/comportamiento.hpp"
+
+1584364822 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\motorlib\util.h
+	<cstdlib>
+
+1584364822 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\motorlib\mapa.hpp
+	<GL/glut.h>
+	"motorlib/entidad.hpp"
+	"modelos_belkan.hpp"
+
+1584365192 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1584365192 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\gl\glu.h
+	<GL/gl.h>
+
+1584365532 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\modelos_belkan.hpp
+	"modelos/aldeano/aldeano.hpp"
+	"modelos/jugador/jugador3d.hpp"
+	"modelos/arbol/arbol.hpp"
+	"modelos/item/item.hpp"
+
+1585252412 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\modelos\aldeano\aldeano.hpp
+	"modelos/aldeano/torso.hpp"
+	"obj3dlib.hpp"
+	<string.h>
+
+1584364822 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\modelos\aldeano\torso.hpp
+	"obj3dlib.hpp"
+	"modelos/aldeano/cabeza.hpp"
+	"modelos/aldeano/brazo.hpp"
+	"modelos/aldeano/cintura.hpp"
+	<string.h>
+
+1584364822 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\modelos\aldeano\cabeza.hpp
+	"obj3dlib.hpp"
+	"modelos/retrato.hpp"
+	<string.h>
+
+1584364822 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\modelos\retrato.hpp
+	"obj3dlib.hpp"
+	<string.h>
+
+1584364822 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\modelos\aldeano\brazo.hpp
+	"obj3dlib.hpp"
+	<string.h>
+
+1584364822 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\modelos\aldeano\cintura.hpp
+	"obj3dlib.hpp"
+	"modelos/aldeano/pierna.hpp"
+	<string.h>
+
+1584364822 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\modelos\aldeano\pierna.hpp
+	"obj3dlib.hpp"
+	<string.h>
+
+1584364822 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\modelos\jugador\jugador3d.hpp
+	"modelos/jugador/quesito.hpp"
+	"modelos/retrato.hpp"
+	"obj3dlib.hpp"
+	<string.h>
+
+1584364822 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\modelos\jugador\quesito.hpp
+	"obj3dlib.hpp"
+	<string.h>
+
+1584364822 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\modelos\arbol\arbol.hpp
+	"obj3dlib.hpp"
+
+1584364822 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\modelos\item\item.hpp
+	"obj3dlib.hpp"
+
+1585252412 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\glui\glui.h
+	<cstdlib>
+	<GL/glut.h>
+	<cstdio>
+	<cstring>
+	<string>
+	<vector>
+
+1584364822 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\comportamientos_jugador\aldeano.cpp
+	"../Comportamientos_Jugador/aldeano.hpp"
+	"motorlib/util.h"
+
+1590339263 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\comportamientos_jugador\jugador.cpp
+	"../Comportamientos_Jugador/jugador.hpp"
+	"motorlib/util.h"
+	<iostream>
+	<cmath>
+	<set>
+	<stack>
+	<queue>
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\comportamientos\comportamiento.cpp
+	"comportamientos/comportamiento.hpp"
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\algebra3.cpp
+	"glui/algebra3.h"
+	"glui/glui_internal.h"
+	<cmath>
+
+1584364822 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\glui\algebra3.h
+	<cmath>
+	<cstdio>
+	<cstdlib>
+
+1584364822 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\glui\glui_internal.h
+	<cstdio>
+	<cmath>
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\arcball.cpp
+	"glui/arcball.h"
+	<cstdio>
+
+1584364822 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\glui\arcball.h
+	"glui_internal.h"
+	"algebra3.h"
+	"quaternion.h"
+
+1584364822 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\glui\quaternion.h
+	"algebra3.h"
+	<cstdio>
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\glui.cpp
+	"glui/glui_internal_control.h"
+
+1584364822 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\glui\glui_internal_control.h
+	"glui/glui.h"
+	"glui/glui_internal.h"
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\glui_add_controls.cpp
+	"glui/glui.h"
+	"glui/glui_internal.h"
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\glui_bitmap_img_data.cpp
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\glui_bitmaps.cpp
+	"glui/glui.h"
+	"glui/glui_internal.h"
+	<cassert>
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\glui_button.cpp
+	"glui/glui_internal_control.h"
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\glui_checkbox.cpp
+	"glui/glui_internal_control.h"
+
+1585252412 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\glui_column.cpp
+	"glui/glui_internal_control.h"
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\glui_commandline.cpp
+	"glui/glui.h"
+	"glui/glui_internal.h"
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\glui_control.cpp
+	"glui/glui_internal_control.h"
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\glui_edittext.cpp
+	"glui/glui_internal_control.h"
+	<cassert>
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\glui_filebrowser.cpp
+	"glui/glui.h"
+	"glui/glui_internal.h"
+	<sys/types.h>
+	<windows.h>
+	<dirent.h>
+	<unistd.h>
+	<sys/stat.h>
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\glui_list.cpp
+	"glui/glui_internal_control.h"
+	<cmath>
+	<sys/timeb.h>
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\glui_listbox.cpp
+	"glui/glui_internal_control.h"
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\glui_mouse_iaction.cpp
+	"glui/glui_internal_control.h"
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\glui_node.cpp
+	"glui/glui.h"
+	"glui/glui_internal.h"
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\glui_panel.cpp
+	"glui/glui_internal_control.h"
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\glui_radio.cpp
+	"glui/glui_internal_control.h"
+	<cassert>
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\glui_rollout.cpp
+	"glui/glui_internal_control.h"
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\glui_rotation.cpp
+	"glui/glui.h"
+	"glui/arcball.h"
+	"glui/algebra3.h"
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\glui_scrollbar.cpp
+	"glui/glui_internal_control.h"
+	<cmath>
+	<cassert>
+
+1585252412 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\glui_separator.cpp
+	"glui/glui_internal_control.h"
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\glui_spinner.cpp
+	"glui/glui_internal_control.h"
+	<cmath>
+	<cassert>
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\glui_statictext.cpp
+	"glui/glui_internal_control.h"
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\glui_string.cpp
+	"glui/glui.h"
+	<stdarg.h>
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\glui_textbox.cpp
+	"glui/glui_internal_control.h"
+	<cmath>
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\glui_translation.cpp
+	"glui/glui.h"
+	"glui/glui_internal.h"
+	"glui/algebra3.h"
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\glui_tree.cpp
+	"glui/glui_internal_control.h"
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\glui_treepanel.cpp
+	"glui/glui.h"
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\glui_window.cpp
+	"glui/glui.h"
+	"glui/glui_internal.h"
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\quaternion.cpp
+	"glui/quaternion.h"
+	<cmath>
+	"glui/glui_internal.h"
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\glui\viewmodel.cpp
+	"glui/viewmodel.h"
+	"glui/glui.h"
+	<cstdio>
+	<cstdlib>
+
+1584364822 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\glui\viewmodel.h
+	"algebra3.h"
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\modelos\aldeano\aldeano.cpp
+	"modelos/aldeano/aldeano.hpp"
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\modelos\aldeano\brazo.cpp
+	"modelos/aldeano/brazo.hpp"
+
+1584364826 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\modelos\aldeano\cabeza.cpp
+	"modelos/aldeano/cabeza.hpp"
+
+1584364826 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\modelos\aldeano\cintura.cpp
+	"modelos/aldeano/cintura.hpp"
+
+1584364826 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\modelos\aldeano\pierna.cpp
+	"modelos/aldeano/pierna.hpp"
+
+1584364826 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\modelos\aldeano\torso.cpp
+	"modelos/aldeano/torso.hpp"
+
+1584364826 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\modelos\arbol\arbol.cpp
+	"modelos/arbol/arbol.hpp"
+	<GL/glut.h>
+
+1585252412 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\modelos\item\item.cpp
+	"modelos/item/item.hpp"
+
+1584364826 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\modelos\jugador\jugador3d.cpp
+	"modelos/jugador/jugador3d.hpp"
+
+1584364826 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\modelos\jugador\quesito.cpp
+	"modelos/jugador/quesito.hpp"
+
+1584364824 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\modelos\retrato.cpp
+	"modelos/retrato.hpp"
+
+1589372986 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\motorlib\entidad.cpp
+	"motorlib/entidad.hpp"
+
+1584366234 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\motorlib\mapa.cpp
+	"motorlib/mapa.hpp"
+
+1589197372 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\motorlib\monitor.cpp
+	"motorlib/monitor.hpp"
+	<fstream>
+
+1585252414 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\motorlib\motor_grafico.cpp
+	"motorlib.hpp"
+	<glui/glui.h>
+	<dirent.h>
+
+1589375196 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\motorlib\motor_juego.cpp
+	"motorlib.hpp"
+	<unistd.h>
+
+1584364826 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\motorlib\util.cpp
+	"motorlib/util.h"
+
+1584364826 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\obj3dlib\cono3d.cc
+	"obj3dlib/cono3d.h"
+	<GL/glut.h>
+
+1584364826 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\obj3dlib\cono3dwire.cc
+	"obj3dlib/cono3dwire.h"
+	<GL/glut.h>
+
+1585252414 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\obj3dlib\cubo3d.cc
+	"obj3dlib/cubo3d.h"
+	<GL/glut.h>
+
+1584364826 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\obj3dlib\dodecaedro3d.cc
+	"obj3dlib/dodecaedro3d.h"
+	<GL/glut.h>
+
+1584364826 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\obj3dlib\esfera3d.cc
+	"obj3dlib/esfera3d.h"
+	<GL/glut.h>
+
+1584364826 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\obj3dlib\file_ply_stl.cc
+	"obj3dlib/file_ply_stl.h"
+
+1584364826 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\obj3dlib\icosaedro3d.cc
+	"obj3dlib/icosaedro3d.h"
+	<GL/glut.h>
+
+1584364826 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\obj3dlib\jpeg_reader\jpg_imagen.cpp
+	<stdlib.h>
+	<string>
+	<iostream>
+	"obj3dlib/jpeg_reader/jpg_imagen.hpp"
+	"obj3dlib/jpeg_reader/jpg_readwrite.hpp"
+
+1584364824 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\obj3dlib\jpeg_reader\jpg_readwrite.hpp
+
+1584366746 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\obj3dlib\jpeg_reader\jpg_memsrc.cpp
+	"obj3dlib/jpeg_reader/jpg_jinclude.h"
+	<jpeglib.h>
+	<jerror.h>
+
+1584364824 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\obj3dlib\jpeg_reader\jpg_jinclude.h
+	"jconfig.h"
+	<stddef.h>
+	<stdlib.h>
+	<sys/types.h>
+	<stdio.h>
+	<strings.h>
+	<string.h>
+
+1585252412 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\jconfig.h
+
+1584365528 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\jpeglib.h
+	"jconfig.h"
+	"jmorecfg.h"
+	"jpegint.h"
+	"jerror.h"
+
+1584365528 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\jmorecfg.h
+
+1584365528 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\jerror.h
+
+1584364826 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\obj3dlib\jpeg_reader\jpg_readwrite.cpp
+	"obj3dlib/jpeg_reader/jpg_readwrite.hpp"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<jpeglib.h>
+	<iostream>
+	<fstream>
+	"obj3dlib/jpeg_reader/jpg_memsrc.hpp"
+	<setjmp.h>
+
+1585252412 d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\include\obj3dlib\jpeg_reader\jpg_memsrc.hpp
+
+1584364826 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\obj3dlib\luz.cpp
+	"obj3dlib/luz.hpp"
+	<cmath>
+
+1584364826 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\obj3dlib\objeto3d.cc
+	"obj3dlib/objeto3d.h"
+	"obj3dlib/file_ply_stl.h"
+	<iostream>
+
+1585252414 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\obj3dlib\objrevolucion3d.cc
+	"obj3dlib/objrevolucion3d.h"
+	"obj3dlib/file_ply_stl.h"
+	<cmath>
+	<GL/glut.h>
+
+1584364826 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\obj3dlib\octaedro3d.cc
+	"obj3dlib/octaedro3d.h"
+	<GL/glut.h>
+
+1584364826 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\obj3dlib\tetraedro3d.cc
+	"obj3dlib/tetraedro3d.h"
+	<GL/glut.h>
+
+1584364826 source:d:\documentos\uni\--actual--\ia\practicas\p2\practica2_windows\src\obj3dlib\toro3d.cc
+	"obj3dlib/toro3d.h"
+	<GL/glut.h>
+

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Belkan1" />
+		<Option pch_mode="2" />
+		<Option default_target="Release" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Belkan1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="1" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Belkan1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option parameters="1" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add directory="include" />
+		</Compiler>
+		<Linker>
+			<Add library="lib/jpeg.lib" />
+			<Add library="lib/libglu32.a" />
+			<Add library="lib/libglui.a" />
+			<Add library="lib/libglut32.a" />
+			<Add library="lib/libopengl32.a" />
+			<Add library="lib/libopenglut.a" />
+		</Linker>
+		<Unit filename="Comportamientos_Jugador/aldeano.cpp" />
+		<Unit filename="Comportamientos_Jugador/aldeano.hpp" />
+		<Unit filename="Comportamientos_Jugador/jugador.cpp" />
+		<Unit filename="Comportamientos_Jugador/jugador.hpp" />
+		<Unit filename="bin_src/juego.cc" />
+		<Unit filename="include/comportamientolib.hpp" />
+		<Unit filename="include/comportamientos/comportamiento.hpp" />
+		<Unit filename="include/glui/algebra3.h" />
+		<Unit filename="include/glui/arcball.h" />
+		<Unit filename="include/glui/glui.h" />
+		<Unit filename="include/glui/glui_internal.h" />
+		<Unit filename="include/glui/glui_internal_control.h" />
+		<Unit filename="include/glui/quaternion.h" />
+		<Unit filename="include/glui/viewmodel.h" />
+		<Unit filename="include/jconfig.h" />
+		<Unit filename="include/jerror.h" />
+		<Unit filename="include/jmorecfg.h" />
+		<Unit filename="include/jpeglib.h" />
+		<Unit filename="include/modelos/aldeano/aldeano.hpp" />
+		<Unit filename="include/modelos/aldeano/brazo.hpp" />
+		<Unit filename="include/modelos/aldeano/cabeza.hpp" />
+		<Unit filename="include/modelos/aldeano/cintura.hpp" />
+		<Unit filename="include/modelos/aldeano/pierna.hpp" />
+		<Unit filename="include/modelos/aldeano/torso.hpp" />
+		<Unit filename="include/modelos/arbol/arbol.hpp" />
+		<Unit filename="include/modelos/item/item.hpp" />
+		<Unit filename="include/modelos/jugador/jugador3d.hpp" />
+		<Unit filename="include/modelos/jugador/quesito.hpp" />
+		<Unit filename="include/modelos/retrato.hpp" />
+		<Unit filename="include/modelos_belkan.hpp" />
+		<Unit filename="include/motorlib.hpp" />
+		<Unit filename="include/motorlib/entidad.hpp" />
+		<Unit filename="include/motorlib/mapa.hpp" />
+		<Unit filename="include/motorlib/monitor.hpp" />
+		<Unit filename="include/obj3dlib.hpp" />
+		<Unit filename="include/obj3dlib/cono3d.h" />
+		<Unit filename="include/obj3dlib/cono3dwire.h" />
+		<Unit filename="include/obj3dlib/cubo3d.h" />
+		<Unit filename="include/obj3dlib/dodecaedro3d.h" />
+		<Unit filename="include/obj3dlib/esfera3d.h" />
+		<Unit filename="include/obj3dlib/file_ply_stl.h" />
+		<Unit filename="include/obj3dlib/icosaedro3d.h" />
+		<Unit filename="include/obj3dlib/jpeg_reader/jpg_imagen.hpp" />
+		<Unit filename="include/obj3dlib/jpeg_reader/jpg_jinclude.h" />
+		<Unit filename="include/obj3dlib/jpeg_reader/jpg_memsrc.hpp" />
+		<Unit filename="include/obj3dlib/jpeg_reader/jpg_readwrite.hpp" />
+		<Unit filename="include/obj3dlib/luz.hpp" />
+		<Unit filename="include/obj3dlib/objeto3d.h" />
+		<Unit filename="include/obj3dlib/objrevolucion3d.h" />
+		<Unit filename="include/obj3dlib/octaedro3d.h" />
+		<Unit filename="include/obj3dlib/tetraedro3d.h" />
+		<Unit filename="include/obj3dlib/toro3d.h" />
+		<Unit filename="include/obj3dlib/vertex.h" />
+		<Unit filename="src/comportamientos/comportamiento.cpp" />
+		<Unit filename="src/glui/algebra3.cpp" />
+		<Unit filename="src/glui/arcball.cpp" />
+		<Unit filename="src/glui/glui.cpp" />
+		<Unit filename="src/glui/glui_add_controls.cpp" />
+		<Unit filename="src/glui/glui_bitmap_img_data.cpp" />
+		<Unit filename="src/glui/glui_bitmaps.cpp" />
+		<Unit filename="src/glui/glui_button.cpp" />
+		<Unit filename="src/glui/glui_checkbox.cpp" />
+		<Unit filename="src/glui/glui_column.cpp" />
+		<Unit filename="src/glui/glui_commandline.cpp" />
+		<Unit filename="src/glui/glui_control.cpp" />
+		<Unit filename="src/glui/glui_edittext.cpp" />
+		<Unit filename="src/glui/glui_filebrowser.cpp" />
+		<Unit filename="src/glui/glui_list.cpp" />
+		<Unit filename="src/glui/glui_listbox.cpp" />
+		<Unit filename="src/glui/glui_mouse_iaction.cpp" />
+		<Unit filename="src/glui/glui_node.cpp" />
+		<Unit filename="src/glui/glui_panel.cpp" />
+		<Unit filename="src/glui/glui_radio.cpp" />
+		<Unit filename="src/glui/glui_rollout.cpp" />
+		<Unit filename="src/glui/glui_rotation.cpp" />
+		<Unit filename="src/glui/glui_scrollbar.cpp" />
+		<Unit filename="src/glui/glui_separator.cpp" />
+		<Unit filename="src/glui/glui_spinner.cpp" />
+		<Unit filename="src/glui/glui_statictext.cpp" />
+		<Unit filename="src/glui/glui_string.cpp" />
+		<Unit filename="src/glui/glui_textbox.cpp" />
+		<Unit filename="src/glui/glui_translation.cpp" />
+		<Unit filename="src/glui/glui_tree.cpp" />
+		<Unit filename="src/glui/glui_treepanel.cpp" />
+		<Unit filename="src/glui/glui_window.cpp" />
+		<Unit filename="src/glui/quaternion.cpp" />
+		<Unit filename="src/glui/viewmodel.cpp" />
+		<Unit filename="src/modelos/aldeano/aldeano.cpp" />
+		<Unit filename="src/modelos/aldeano/brazo.cpp" />
+		<Unit filename="src/modelos/aldeano/cabeza.cpp" />
+		<Unit filename="src/modelos/aldeano/cintura.cpp" />
+		<Unit filename="src/modelos/aldeano/pierna.cpp" />
+		<Unit filename="src/modelos/aldeano/torso.cpp" />
+		<Unit filename="src/modelos/arbol/arbol.cpp" />
+		<Unit filename="src/modelos/item/item.cpp" />
+		<Unit filename="src/modelos/jugador/jugador3d.cpp" />
+		<Unit filename="src/modelos/jugador/quesito.cpp" />
+		<Unit filename="src/modelos/retrato.cpp" />
+		<Unit filename="src/motorlib/entidad.cpp" />
+		<Unit filename="src/motorlib/mapa.cpp" />
+		<Unit filename="src/motorlib/monitor.cpp" />
+		<Unit filename="src/motorlib/motor_grafico.cpp" />
+		<Unit filename="src/motorlib/motor_juego.cpp" />
+		<Unit filename="src/motorlib/util.cpp" />
+		<Unit filename="src/obj3dlib/cono3d.cc" />
+		<Unit filename="src/obj3dlib/cono3dwire.cc" />
+		<Unit filename="src/obj3dlib/cubo3d.cc" />
+		<Unit filename="src/obj3dlib/dodecaedro3d.cc" />
+		<Unit filename="src/obj3dlib/esfera3d.cc" />
+		<Unit filename="src/obj3dlib/file_ply_stl.cc" />
+		<Unit filename="src/obj3dlib/icosaedro3d.cc" />
+		<Unit filename="src/obj3dlib/jpeg_reader/jpg_imagen.cpp" />
+		<Unit filename="src/obj3dlib/jpeg_reader/jpg_memsrc.cpp" />
+		<Unit filename="src/obj3dlib/jpeg_reader/jpg_readwrite.cpp" />
+		<Unit filename="src/obj3dlib/luz.cpp" />
+		<Unit filename="src/obj3dlib/objeto3d.cc" />
+		<Unit filename="src/obj3dlib/objrevolucion3d.cc" />
+		<Unit filename="src/obj3dlib/octaedro3d.cc" />
+		<Unit filename="src/obj3dlib/tetraedro3d.cc" />
+		<Unit filename="src/obj3dlib/toro3d.cc" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
