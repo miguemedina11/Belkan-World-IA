@@ -3,7 +3,7 @@ Practicas UGR IA - Searching algorythims that try to get the higgest score on di
 
 ![](Belkan.gif)
 
-# How to Execute
+# How to Run
 
 You need OpenBlocks to run this program. Go to File-->Open... and select "Belkan.cbp" 
 After the proyect loads click the "Build and run" buttom.
